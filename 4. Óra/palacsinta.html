@@ -1,8 +1,25 @@
 ﻿<!DOCTYPE html>
 <html lang="hu">
 <head>
-<title>Süssünk palacsintát!</title>
-<meta charset="utf-8">
+  <meta charset="utf-8">
+  <title>Süssünk palacsintát!</title>
+  <style>
+    body {
+        transition: background-color 0s ease;
+        margin: 0;
+        padding: 0;
+        position: relative;
+    }
+    .dark-mode {
+        background-color: #333;
+        color: #fff;
+    }
+    .dark-mode-toggle {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+</style>
 </head>
 
 <body>
@@ -44,6 +61,15 @@
     <li>Ha átsült a másik oldal, akkor óvatosan csúsztassuk ki a palacsintasütőből.</li>
     <li>Segítségképpen használjunk palacsintalapátot.</li>
   </ol>
+  <div class="dark-mode-toggle">
+    <button onclick="toggleDarkMode()">Téma változtatása</button>
+</div>
+
+<script>
+    function toggleDarkMode() {
+        document.body.classList.toggle('dark-mode');
+    }
+</script>
 </body>
 
 </html>
