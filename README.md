@@ -1,6 +1,6 @@
 # Weboldal
 
-##Bereczki Lehel
+## Bereczki Lehel
 
 Ez egy weboldal, ahohvá feltöltögetem az órai munkákat és házikat.
 
