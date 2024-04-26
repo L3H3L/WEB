@@ -6,13 +6,17 @@
     <title>Házifeladatok</title>
     <style>
         body {
-            transition: background-color 0s ease;
+            transition: background-color 0.5s ease;
             margin: 0;
             padding: 0;
             position: relative;
+            color: #333;
         }
         .dark-mode {
             background-color: #333;
+            color: #fff;
+        }
+        .dark-mode a {
             color: #fff;
         }
         .dark-mode-toggle {
@@ -29,9 +33,10 @@
         <li><a href="2. Óra/index.html">2. Óra</a></li>
         <li><a href="3. Óra">3. Óra</a></li>
         <li><a href="4. Óra/palacsinta.html">4. Óra</a></li>
+        <li><a href="5. Óra/panda.html">5. Óra</a></li>
     </ul>
     <div class="dark-mode-toggle">
-        <button onclick="toggleDarkMode()">Téma változtatása</button>
+        <button onclick="toggleDarkMode()">Sötét téma</button>
     </div>
 
     <script>
